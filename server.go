@@ -26,6 +26,7 @@ func main() {
 				"error":   true,
 				"message": "Could not fetch data",
 			})
+			return
 		}
 		c.JSON(200, camps)
 	})
