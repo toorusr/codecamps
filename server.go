@@ -19,7 +19,7 @@ func main() {
 		})
 	})
 
-	m.GET("/camps/all", func(c *gin.Context) {
+	m.GET("/camps", func(c *gin.Context) {
 		camps, err := fetchCamps()
 		if err != nil {
 			c.JSON(500, gin.H{
