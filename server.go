@@ -38,6 +38,7 @@ func main() {
 				"error":   true,
 				"message": "Could not fetch data",
 			})
+			return
 		}
 		if index <= len(camp) {
 			c.JSON(200, camp[index])
