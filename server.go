@@ -15,7 +15,7 @@ func main() {
 	m.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"error":   false,
-			"message": "Welcome to the code.camp API! Check out the latest code camps with /camps/all or get a specific one at /camp/0",
+			"message": "Welcome to the code.camp API! Check out the latest code camps with /camps or get a specific one at /camp/0",
 		})
 	})
 
