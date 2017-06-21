@@ -51,7 +51,7 @@ func main() {
 		}
 	})
 
-	m.Run(":3001")
+	m.Run(":5000")
 }
 
 func fetchCamps() ([]Camp, error) {
